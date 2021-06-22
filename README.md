@@ -1,3 +1,7 @@
+# A project created through my learning phase of React. My code belongs to the components folder.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
