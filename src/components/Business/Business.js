@@ -4,6 +4,9 @@ import './Business.css'
 
 
 class Business extends React.Component{
+  /* Business component rendering the form
+  in which we display each unique business to
+  our application */
     render(){
         return(
             <div className="Business">
