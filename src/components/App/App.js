@@ -4,20 +4,7 @@ import BusinessList from '../BusinessList/BusinessList'
 import SearchBar from '../SearchBar/SearchBar'
 import Yelp from '../../utll/Yelp'
 
-//Creating mock data, gonna retrieve from API later
-// const business = {
-//   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-//   name: 'MarginOtto Pizzeria',
-//   address: '1010 Paddington Way',
-//   city: 'Flavortown',
-//   state: 'NY',
-//   zipCode: '10101',
-//   category: 'Italian',
-//   rating: 4.5,
-//   reviewCount: 90
-// }
-//Creating mock data array
-// const businesses = [business,business,business,business,business,business]
+
 
 class App extends React.Component{
  /*Function passed to Searchbard component as an event handler 
@@ -27,6 +14,8 @@ class App extends React.Component{
   this.state = {businesses : [],}
   this.searchYelp = this.searchYelp.bind(this)
 }
+
+//Using the api to request our data mentioned in business.js
  searchYelp(term,location,sortBy){
   Yelp.searchYelp(term,location,sortBy).then(businesses => {
     this.setState({businesses : businesses})
