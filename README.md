@@ -1,4 +1,4 @@
-# A project created through my learning phase of React. My code belongs to the components folder and utll folder.
+# A project created through my learning phase of React. My code belongs to the components folder and api folder.
 
 ## Table of Contents
 
