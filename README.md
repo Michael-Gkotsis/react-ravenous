@@ -12,17 +12,18 @@ It's a project offered by codeAcademy through tasks and i own the components Js 
 
 ## Installation
 
-1. Download or clone the github folder
-```sh https://github.com/Michael-Gkotsis/react-ravenous.git```
+1. Download or clone the github folder:
+```git clone https://github.com/Michael-Gkotsis/react-ravenous.git```
+
 2. cd ..Path/folder
 
-3. ```sh npm install ``` into the project folder.
+3. ```npm install ``` into the project folder.
 
-4. ```sh npm run build ```
+4. ```npm run build ```
 
 5. Navigate to this website to bypass the restrictions of yelp api
 https://cors-anywhere.herokuapp.com/corsdemo
 
-6. ```sh serve -s build ```
+6. ```serve -s build ```
 
-7. paste the local address given by the server at your browser
+7. Paste the local address given by the server at your browser.
